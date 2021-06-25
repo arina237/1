@@ -1,0 +1,7 @@
+future==0.18.2
+lxml==4.6.3
+numpy==1.20.3
+opencv-contrib-python==4.5.2.54
+pioneer-sdk==0.2.6
+pygame==2.0.1
+pymavlink==2.4.15
