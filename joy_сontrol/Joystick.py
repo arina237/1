@@ -17,7 +17,7 @@ class Joystick:
                 self.joyInd[1] = i
             if joystick.get_name() == "Xbox 360 Controller":
                 self.joyInd[2] = i
-            if joystick.get_name() == "Controller (Rumble Gamepad F510)":
+            if joystick.get_name() == "Controller (Rumble Gamepad F510)" or "Logitech Rumblepad 2 USB":
                 self.joyInd[3] = i
 
         self.joystick = [None, None, None, None] # Массив хрнения джойстиков. Порядок храннения: PS4, cobra, xBox
